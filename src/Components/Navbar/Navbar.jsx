@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './Navbar.css';
 import './Navbar.scss';
 
@@ -8,6 +8,17 @@ import { AiFillCloseCircle } from "react-icons/ai";
 import { PiDotsNineBold } from "react-icons/pi";
 
 const Navbar = () => {
+
+  const [navBar, setNavBar] = useState("menu");
+  // Function to show NavBar
+  const showNavBar = () =>{
+    setNavBar(" menu showNavBar");
+  }
+
+
+
+
+
   return (
     <div className='navBar'>
       <div className='logoDiv'>
@@ -15,7 +26,7 @@ const Navbar = () => {
        <span>Chuma.R-Trips</span>
       </div>
 
-      <div className='menu'>
+      <div className={navBar}>
         <ul>
           <li className='navList'>
             Destination
@@ -32,12 +43,12 @@ const Navbar = () => {
         </ul>
 
         {/* icons to remove navbar */}
-        <AiFillCloseCircle className='icons' />
+        <AiFillCloseCircle className='icons closeIcon' />
       </div>
 
       <button className='signUpBtn btn'>Sign Up</button>
 
-      <PiDotsNineBold className='icon' />
+      <PiDotsNineBold className='icon menuIcon' onClick={showNavBar} />
        
     </div>
   )
