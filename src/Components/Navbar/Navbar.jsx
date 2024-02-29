@@ -1,5 +1,6 @@
-import React from 'react'
-import './Navbar.css'
+import React from 'react';
+import './Navbar.css';
+import './Navbar.scss';
 
 // Imported Icons
 import { RiBusLine } from "react-icons/ri";
@@ -42,4 +43,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default Navbar;
