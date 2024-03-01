@@ -11,6 +11,90 @@ import { TiLocation } from "react-icons/ti";
 
 // Importing images
 import image1 from '../../Assets/images (1).jpg'
+import image2 from '../../Assets/Mossel-Bay.jpg'
+import image3 from '../../Assets/Amakhala.jpeg'
+import image4 from '../../Assets/umtata-river.jpg'
+import image5 from '../../Assets/Maclear.jpg'
+import image6 from '../../Assets/Tsitsikama-forest.jpg'
+import image7 from '../../Assets/Micato-safaris.jpg'
+import image8 from '../../Assets/Rural1.jpg'
+import image9 from '../../Assets/Bulungula.jpg'
+import image10 from '../../Assets/hogsback.jpg'
+
+// Creating an array that is gonna hold all the data for the destinations
+const destinations= [
+  {
+    id: 1,
+    img: image1,
+    name: 'Port St Johns',
+    location: 'Eastern Cape',
+    rating: 4.7
+  },
+  {
+    id: 2,
+    img: image2,
+    name: 'Mossel Bay',
+    location: 'Eastern Cape',
+    rating: 4.8
+  },
+  {
+    id: 3,
+    img: image3,
+    name: 'Amakhala',
+    location: 'Eastern Cape',
+    rating: 3.1
+  },
+  {
+    id: 4,
+    img: image4,
+    name: 'Umtata',
+    location: 'Eastern Cape',
+    rating: 4.5
+  },
+  {
+    id: 5,
+    img: image5,
+    name: 'Maclear',
+    location: 'Eastern Cape',
+    rating: 4.7
+  },
+  {
+    id: 6,
+    img: image6,
+    name: 'Tsitsikama',
+    location: 'Eastern Cape',
+    rating: 4.7
+  },
+  {
+    id: 7,
+    img: image7,
+    name: 'Micatos Safari',
+    location: 'Eastern Cape',
+    rating: 4.6
+  },
+  {
+    id: 8,
+    img: image8,
+    name: 'Hlangani',
+    location: 'Eastern Cape',
+    rating: 3.7
+  },
+  {
+    id: 9,
+    img: image9,
+    name: 'Bulunga',
+    location: 'Eastern Cape',
+    rating: 3.9
+  },
+  {
+    id: 10,
+    img: image10,
+    name: 'Hongs Back',
+    location: 'Eastern Cape',
+    rating: 4.7
+  },
+  
+];
 
 const Destination = () => {
   return (
@@ -60,34 +144,34 @@ const Destination = () => {
 
 
         <div className='destinationContainer grid'>
-
-          <div className='singleDestination'>
-            <div className='imgDiv'>
-              <img src={image1} alt='Destination Image' />
-
-
-              <div className='descInfo flex'>
-                <div className='text'>
-                  <spna className='name'>Pink Water</spna>
-                  <p className='flex'><TiLocation className='icon' />
-                    {/* People bath here as they believe this cleansing ritual will 
-                    help them fight off bad luck and evil spirits. Some dip 
-                    their swollen feet into the pool, as there is a belief
-                    that the water can healing any ailments. */}
-                    Port St Johns
-                  </p>
+          {destinations.map((destination) => {
+            return (
+              <div className='singleDestination' key={destination.id}>
+              <div className='imgDiv'>
+                <img src={destination.img} alt='Destination Image' />
+  
+  
+                <div className='descInfo flex'>
+                  <div className='text'>
+                    <spna className='name'>{destination.name}</spna>
+                    <p className='flex'><TiLocation className='icon' />
+                      {/* People bath here as they believe this cleansing ritual will 
+                      help them fight off bad luck and evil spirits. Some dip 
+                      their swollen feet into the pool, as there is a belief
+                      that the water can healing any ailments. */}
+                      {destination.location}
+                    </p>
+                  </div>
+                  <span className='rating'>
+                    {destination.rating}
+                  </span>
                 </div>
-                <spna className='rating'>
-                  4.5
-                </spna>
               </div>
             </div>
-          </div>
+            );
+          })}
         </div>
-
-
       </div>
-
     </div>
   )
 }
