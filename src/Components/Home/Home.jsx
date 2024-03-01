@@ -21,7 +21,7 @@ const Home = () => {
         Let us guide you on a journey of discovery and wonder. 
         Your next unforgettable adventure starts here.
         </p>
-        <button>GET STARTED <AiOutlineSwapRight className="icon" />
+        <button className='btn flex'>GET STARTED <AiOutlineSwapRight className="icon" />
         </button>
       </div>
 

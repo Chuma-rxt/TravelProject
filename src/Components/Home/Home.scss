@@ -57,7 +57,26 @@
 
         h1{
             font-size: var(--biggestFontSize);
+            font-weight: 900;
         }
+
+        p{
+            padding: 1rem 0;
+            font-size: var(--normalFontSize);
+            font-weight: 500;
+        }
+
+        .btn{
+            gap: .5rem;
+            padding-left: 2rem;
+            padding-right: 2rem;
+            font-size: var(--h3FontSize);
+        }
+    }
+
+    .popularPlaces{
+        display: none;
+        
     }
 
 }
