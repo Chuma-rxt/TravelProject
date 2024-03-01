@@ -16,6 +16,12 @@ const Navbar = () => {
   }
 
 
+  // Function to remove NavBar
+  const removeNavBar = () =>{
+    setNavBar(" menu ");
+  }
+
+
 
 
 
@@ -43,7 +49,7 @@ const Navbar = () => {
         </ul>
 
         {/* icons to remove navbar */}
-        <AiFillCloseCircle className='icons closeIcon' />
+        <AiFillCloseCircle className='icons closeIcon' onClick={removeNavBar} />
       </div>
 
       <button className='signUpBtn btn'>Sign Up</button>
