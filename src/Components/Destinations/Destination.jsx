@@ -43,6 +43,17 @@ const Destination = () => {
 
           </button>
         </div>
+
+        <div className='secMenu'>
+          <ul className='Flex'>
+            <li className='active'>All</li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
       </div>
 
     </div>
