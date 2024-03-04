@@ -7,9 +7,9 @@ import icon2 from '../../Assets/destination1.jpg'
 import icon3 from '../../Assets/24-hours-support.png'
 import image from '../../Assets/Untitled design.png';
 
-const Portifolio = () => {
+const Portfolio = () => {
   return (
-    <div className='portifolio section container'>
+    <div className='portfolio section container'>
       <div className='secContainer grid'>
         <div className='leftContent'>
           <div className='secHeading'>
@@ -20,7 +20,7 @@ const Portifolio = () => {
           </div>
 
           <div className='grid'>
-            <div className='singlePortifolio flex'>
+            <div className='singlePortfolio flex'>
               <div className='iconDiv'>
                 <img src={icon1} alt='Icon Image' />
               </div>
@@ -36,7 +36,7 @@ const Portifolio = () => {
 
             </div>
 
-            <div className='singlePortifolio flex'>
+            <div className='singlePortfolio flex'>
               <div className='iconDiv'>
                 <img src={icon2} alt='Icon Image' />
               </div>
@@ -51,7 +51,7 @@ const Portifolio = () => {
               </div>
             </div>
 
-            <div className='singlePortifolio flex'>
+            <div className='singlePortfolio flex'>
               <div className='iconDiv'>
                 <img src={icon3} alt='Icon Image' />
               </div>
@@ -75,4 +75,4 @@ const Portifolio = () => {
   )
 }
 
-export default Portfolio
+export default Portfolio;
