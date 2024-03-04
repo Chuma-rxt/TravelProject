@@ -1,5 +1,6 @@
 import React from 'react'
 import './Questions.css'
+import Accordion from './Accordion';
 
 const Questions = () => {
   return (
@@ -8,7 +9,7 @@ const Questions = () => {
         <h3>Frequently Asked Questions</h3>
       </div>
       <div className='secContainer grid'>
-        <div className='according grid'></div>
+        <div className='accordion grid'><Accordion /></div>
 
         <div className='form'>
           <div className='secHeading'>
@@ -17,7 +18,13 @@ const Questions = () => {
               Please complete the form below, and a member of our
               committed team will contact you as soon as possible.
             </p>
-         </div>  
+         </div>
+
+         <div className='formContent grid'>
+          <input type='email' placeholder='Enter email address' />
+          <textarea placeholder='Enter your question here'></textarea>
+          <button className='btn'>Submit Inquiry</button>
+         </div>
         </div>
       </div>
     </div>
