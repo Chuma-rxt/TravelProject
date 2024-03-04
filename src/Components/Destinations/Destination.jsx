@@ -20,9 +20,17 @@ import image7 from '../../Assets/Micato-safaris.jpg'
 import image8 from '../../Assets/Rural1.jpg'
 import image9 from '../../Assets/Bulungula.jpg'
 import image10 from '../../Assets/hogsback.jpg'
+import image0 from '../../Assets/3.-Msikaba-Bridge-CGI.jpg'
 
 // Creating an array that is gonna hold all the data for the destinations
 const destinations= [
+  {
+    id: 0,
+    img: image0,
+    name: 'Msikaba Bridge',
+    location: 'Eastern Cape',
+    rating: 3.7
+  },
   {
     id: 1,
     img: image1,
