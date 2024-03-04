@@ -28,9 +28,9 @@ const Portfolio = () => {
               <div className='infor'>
                 <h4>Safety and Support</h4>
                 <p>
-                  Our top priority is the safety and well-being of our clients.
-                  We maintain high safety standards and have emergency support
-                  available during the trip.
+                 The security and welfare of our customers come first.
+                 Throughout the tour, we have emergency backup available
+                 and uphold strict safety requirements.
                 </p>
               </div>
 
@@ -44,9 +44,9 @@ const Portfolio = () => {
               <div className='infor'>
                 <h4>Diverse Range of Destination</h4>
                 <p>
-                  Whether it's a domestic tour or an international adventure, we
-                  cover a wide range of destinations to cater to different interests
-                  and preferences.
+                 We offer a wide selection of sites to accommodate a 
+                 variety of interests and tastes, whether it's a domestic
+                 tour or an international excursion.
                 </p>
               </div>
             </div>
@@ -59,8 +59,9 @@ const Portfolio = () => {
               <div className='infor'>
                 <h4>24/7 Customer Support</h4>
                 <p>
-                  Our dedicated customer support team is avvailable round the clock to 
-                  address any quries or concerns before, during, and after the trip.
+                 Before, during, and after the trip, our committed customer 
+                 support team is available around-the-clock to answer any 
+                 questions or concerns.
                 </p>
               </div>
             </div>

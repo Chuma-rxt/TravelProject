@@ -14,8 +14,8 @@ const Questions = () => {
           <div className='secHeading'>
             <h4>Do you have any specific question?</h4>
             <p>
-              Please fill the form below and our dedicated team will get intouch
-              with you as soon as possible.
+              Please complete the form below, and a member of our
+              committed team will contact you as soon as possible.
             </p>
          </div>  
         </div>
