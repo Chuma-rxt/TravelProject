@@ -3,13 +3,13 @@ import './Portfolio.css'
 import './Portfolio.scss';
 
 import icon1 from '../../Assets/icon1.jpg'
-import icon2 from '../../Assets/destination.png'
+import icon2 from '../../Assets/destination1.jpg'
 import icon3 from '../../Assets/24-hours-support.png'
 import image from '../../Assets/Untitled design.png';
 
-const Portfolio = () => {
+const Portifolio = () => {
   return (
-    <div className='portfolio section container'>
+    <div className='portifolio section container'>
       <div className='secContainer grid'>
         <div className='leftContent'>
           <div className='secHeading'>

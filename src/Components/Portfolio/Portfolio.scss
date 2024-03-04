@@ -29,3 +29,32 @@ root{
 
 }
 
+.portifolio{
+    .secContainer{
+        gap: 2rem;
+        .leftContent{
+
+            .grid{
+                .singlePortifolio{
+                    gap: 1rem;
+                    align-items: flex-start;
+
+                    .iconDiv{
+                        img {
+                            height: 50px;
+                            width: 50px;
+                        }
+                    }
+
+                    .infor { 
+                        h4{
+                            padding-bottom: 0.5rem;
+                        }
+
+                    }
+                }
+            }
+
+        }
+    }
+}
