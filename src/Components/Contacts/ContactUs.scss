@@ -55,6 +55,13 @@ root{
 
     .formContainer{
         flex: 1;
+        position: relative;
+
+        .phoneSvg{
+            stroke: var(--primaryColor);
+            position: absolute;
+            margin: auto;
+        }
 
         form{
             display: flex;

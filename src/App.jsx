@@ -25,7 +25,7 @@ function App() {
       <Reviews/>
       <Questions/>
       <Subscribe/>
-      <ContactUs />
+      {/* <ContactUs /> */}
       {/* <Footer/> */}
 
 
