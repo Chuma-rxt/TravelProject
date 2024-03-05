@@ -4,22 +4,22 @@ import React from 'react'
 // importing icons
 import { BsArrowDownCircle } from "react-icons/bs";
 
-const Accordion = () => {
+const Accordion = ({title, desc, active, setActive}) => {
+  
+
   return (
     <div className='accordionContainer'>
       <span className='title flex'>
-          How do I choose the right travel destination for me?
-          <span>
+          {title}
+          <span onClick={() => setActive(title)}>
           <BsArrowDownCircle className='icon' />
           </span>
       </span>
-      <p className='description'>
-       Think on your hobbies, spending limit, ideal experiences,
-       and preferred surroundings. Look at places that offer 
-       attractions or activities you find intriguing and that fit your preferences.
+      <p className= {(active === title ? "show" : "") + " description"}>
+       {desc}
       </p>
     </div>
   )
 }
 
-export default Accordion
+export default Accordion;
