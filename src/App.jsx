@@ -26,7 +26,7 @@ function App() {
       <Questions/>
       <Subscribe/>
       {/* <ContactUs /> */}
-      {/* <Footer/> */}
+      <Footer/>
 
 
 

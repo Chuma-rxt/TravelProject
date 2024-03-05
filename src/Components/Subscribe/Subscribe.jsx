@@ -1,5 +1,6 @@
 import React from 'react'
 import './Subscribe.css'
+import './Subscribe.scss'
 
 // importing pictures
 import image1 from '../../Assets/call.png'
