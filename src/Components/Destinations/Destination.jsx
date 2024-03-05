@@ -41,7 +41,7 @@ const destinations= [
   {
     id: 2,
     img: image2,
-    name: 'Mossel Bay',
+    name: 'Coffee Bay',
     location: 'Eastern Cape',
     rating: 4.8
   },
