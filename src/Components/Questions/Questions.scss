@@ -74,3 +74,34 @@ root{
     }
 
 }
+
+.questions{
+    .secHeading{
+        h3,h4{
+            padding-bottom: 1.5rem;
+        }
+        p{
+            font-size: var(--smallestFontSize);
+            color: var(--blackColor);
+            padding-bottom: 1rem;
+        }
+    }
+
+    .form {
+        .formContent{
+            gap: 1rem;
+            input, textarea{
+                background: var(--primaryColorLight);
+                width: 100%;
+                padding: 1rem;
+                border: none;
+                outline: none;
+                border-radius: var(--borderRadiud);
+                &::placeholder{
+                    font-size: var(--smallestFontSize);
+                    color: var(--blackColor);
+                }
+            }
+        }
+    }
+}
