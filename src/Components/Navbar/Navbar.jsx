@@ -4,6 +4,7 @@ import './Navbar.scss';
 
 // Imported Icons
 import { RiBusLine } from "react-icons/ri";
+import { FaCarTunnel } from "react-icons/fa6";
 import { AiFillCloseCircle } from "react-icons/ai";
 import { PiDotsNineBold } from "react-icons/pi";
 
@@ -28,7 +29,7 @@ const Navbar = () => {
   return (
     <div className='navBar'>
       <div className='logoDiv'>
-       <RiBusLine className='icon' />
+       <FaCarTunnel className='icon' />
        <span>Chuma.R-Trips</span>
       </div>
 
