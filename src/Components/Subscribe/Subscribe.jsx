@@ -2,7 +2,7 @@ import React from 'react'
 import './Subscribe.css'
 
 // importing pictures
-import image1 from '../../Assets/Spee.jpeg'
+import image1 from '../../Assets/call.png'
 
 const Subscribe = () => {
   return (
