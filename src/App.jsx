@@ -7,6 +7,7 @@ import Portfolio from "./Components/Portfolio/Portfolio";
 import Reviews from "./Components/Reviews/Reviews";
 import Questions from "./Components/Questions/Questions";
 import Subscribe from "./Components/Subscribe/Subscribe";
+import ContactUs from "./Components/Contacts/ContactUs";
 import Footer from "./Components/Footer/Footer";
 
 
@@ -23,8 +24,9 @@ function App() {
       <Portfolio/>
       <Reviews/>
       <Questions/>
-      {/* <Subscribe/>
-      <Footer/> */}
+      <Subscribe/>
+      <ContactUs />
+      {/* <Footer/> */}
 
 
 
