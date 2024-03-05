@@ -1,9 +1,26 @@
 import React from 'react'
 import './ContactUs.scss'
+import {motion} from "framer-motion"
+
+const varients ={
+    initial:{
+        y:500,
+        opacit:0
+    },
+    animate:{
+        y:0,
+        opacity:1,
+        transition:{
+            duration:0.5,
+            staggerChildren:0.1,
+
+        }
+    }
+}
 
 const ContactUs = () => {
   return (
-    <div className='contact'>
+    <motion.div className='contact'>
         <div className='textContainer'>
             <h1>Let's Travel Together!</h1>
             <div className='item'>
@@ -29,7 +46,7 @@ const ContactUs = () => {
                 <button>Submit</button>
             </form>
         </div>
-    </div>
+    </motion.div>
   )
 }
 
