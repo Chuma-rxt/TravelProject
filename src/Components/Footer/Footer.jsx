@@ -13,17 +13,19 @@ const Footer = () => {
   return (
     <div className='footer'>
       <div className='secContainer container grid'>
-        <div className='logoDiv'>
-          <div className='footerLogo'>
-          <FaCarTunnel className='icon' />
-          <span>Chuma.R-Trips</span>
-          </div>
-
-          <div className='socials flex'>
+          <div className='logoDiv'>
+              <div className='footerLogo'>
+              <FaCarTunnel className='icon' />
+              <span>Chuma.R-Trips</span>
+              </div>
+              <div className='socials flex'>
             <FaFacebook className='icon' />
             <FaInstagram className='icon'/>
             <FaTwitter className='icon'/>
           </div>
+          </div>
+
+          
 
           <div className='footerLinks'>
             <span className='linkTitle'>
@@ -72,7 +74,7 @@ const Footer = () => {
               craxoti60@gmail.com
             </span>
           </div>
-        </div>
+        
       </div>
     </div>
   )

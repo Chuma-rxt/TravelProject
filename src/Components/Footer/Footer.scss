@@ -59,6 +59,8 @@ root{
             .socials{
                 gap: .5rem;
                 margin: auto;
+                align-items: center;
+                
                 justify-content: center;
 
                 .icon{
@@ -71,6 +73,18 @@ root{
                         background: var(--primaryColorLight);
                     }
                 }
+            }
+        }
+
+        .footerLinks{
+            display: grid;
+            row-gap: .2rem;
+
+
+            .linksTitle{
+                padding-bottom: .5rem;
+                color: var(--blackColor);
+                font-weight: 700;
             }
         }
     }
