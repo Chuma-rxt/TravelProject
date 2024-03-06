@@ -124,6 +124,19 @@
             ul{
                 display: flex;
                 gap: 1rem;
+
+                li{
+                    font-size: var(--h3FontSize);
+                    font-weight: 500;
+                    padding: 1rem 0;
+                    text-align: center;
+                    cursor: pointer;
+
+                    &:hover{
+                        color: var(--primaryColor);
+                        border-bottom: 1.5px solid var(--primaryColor);
+                    }
+                }
             }
         }
     }
