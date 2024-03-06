@@ -37,8 +37,8 @@
     padding: 1.5rem 2rem;
     position: fixed;
     border-bottom: 1.5px solid rgb(211, 211, 211);
-    // background: #daa3a3;
-    backdrop-filter: blur (5px);
+    background: rgba(218, 163, 163, 0.301); /* Adjust the RGBA values for your desired background color and opacity */
+    backdrop-filter: blur(1px); /* Adjust the blur amount as needed */
     z-index: 1000;
 
     .logoDiv {

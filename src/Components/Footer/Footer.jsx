@@ -1,5 +1,6 @@
 import React from 'react'
 import './Footer.css'
+import './Footer.scss'
 
 // importing Icons
 import { FaCarTunnel } from "react-icons/fa6";
