@@ -86,6 +86,21 @@ root{
                 color: var(--blackColor);
                 font-weight: 700;
             }
+
+            li{
+                &:hover{
+                    transform: translate(10px);
+                    a{
+                        color: var(--primaryColor);
+                    }
+                }
+            }
+
+            a, .phone, .email{
+                color: var(--blackColor);
+                font-size: 13px;
+                font-weight: 500;
+            }
         }
     }
 
