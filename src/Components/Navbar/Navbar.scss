@@ -36,9 +36,8 @@
     width: 100%;
     padding: 1.5rem 2rem;
     position: fixed;
+    background: rgba(255, 255, 255, 0.737);
     border-bottom: 1.5px solid rgb(211, 211, 211);
-    background: rgba(218, 163, 163, 0.301); /* Adjust the RGBA values for your desired background color and opacity */
-    backdrop-filter: blur(1px); /* Adjust the blur amount as needed */
     z-index: 1000;
 
     .logoDiv {
@@ -105,8 +104,28 @@
     .showNavBar{
         top: 8rem;
     }
-    
-   
 
+}
+
+// Adding the Media queries
+@media screen and (min-width: 768px) {
+    .navBar{
+        .logoDiv{
+            span{
+                font-size: var(--h2FontSize);
+            }
+        }
+
+        .closeIcon, .menuIcon{
+            display: none;
+        }
+
+        .menu{
+            ul{
+                display: flex;
+                gap: 1rem;
+            }
+        }
+    }
 }
 
