@@ -29,6 +29,19 @@ root{
 
 }
 
+.middle {
+    /* Add background image URL and other styles */
+    background-image: url('../../Assets/pexels-towfiqu-barbhuiya-9821386.jpg'); /* Path to your background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    // padding: 50px 0; /* Adjust padding as needed */
+  
+    /* Other existing styles */
+    /* ... */
+  }
+
+
 .middle{
     width: 100%;
 
