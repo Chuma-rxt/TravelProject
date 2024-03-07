@@ -3,7 +3,7 @@ import './Subscribe.css'
 import './Subscribe.scss'
 
 // importing pictures
-import image1 from '../../Assets/call.png'
+import image1 from '../../Assets/call-removebg-preview.png'
 
 const Subscribe = () => {
   return (
