@@ -6,7 +6,7 @@ import './Home.scss'
 import { AiOutlineSwapRight } from "react-icons/ai";
 
 // Importing the assetss
-import Video from '../../Assets/video2.mp4'
+import Video from '../../Assets/production_id_4763825 (2160p).mp4'
 
 const Home = () => {
   return (
