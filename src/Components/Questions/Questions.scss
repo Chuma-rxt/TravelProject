@@ -30,6 +30,16 @@ root{
 
 }
 
+.questions {
+    /* Add background image URL and other styles */
+    background-image: url('../../Assets/pexels-download-a-pic-donate-a-buck-^-54379.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    // padding: 50px 0; /* Adjust padding as needed */
+  
+    /* Other existing styles */
+    /* ... */
+  }
 
 
 .accordionContainer{
@@ -79,12 +89,13 @@ root{
 
 .questions{
     .secHeading{
-        h3,h4{
+        h4{
             padding-bottom: 1.5rem;
+            color: #FFF;
         }
         p{
             font-size: var(--smallestFontSize);
-            color: var(--blackColor);
+            color: #FFF;
             padding-bottom: 1rem;
         }
     }

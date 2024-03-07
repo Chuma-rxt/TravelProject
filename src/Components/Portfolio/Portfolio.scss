@@ -29,10 +29,28 @@ root{
 
 }
 
+.portfolio {
+    /* Add background image URL and other styles */
+    background-image: url('../../Assets/pexels-omar-markhieh-1438863.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    // padding: 50px 0; /* Adjust padding as needed */
+  
+    /* Other existing styles */
+    /* ... */
+  }
+
 .portfolio{
     .secContainer{
         gap: 2rem;
         .leftContent{
+            h3, h4{
+                color: var(--primaryColor);
+
+            }
+            p{
+                color: #fff;
+            }
 
             .grid{
                 .singlePortfolio{
