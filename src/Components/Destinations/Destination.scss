@@ -259,6 +259,56 @@ root{
                 }
             }
 
+            .searchField{
+                grid-template-columns: repeat(4, 1fr);
+            }
+    
+            // .destinationContainer{
+            //     grid-template-columns: repeat(2, 1fr);
+            // }
+            
+
+            
+        }
+    }
+}
+
+
+@media screen and (min-width: 1014px){
+    .destination{
+        .secContainer{
+            
+
+        
+            // .searchField{
+            //     grid-template-columns: repeat(4, 1fr);
+            // }
+    
+            .destinationContainer{
+                grid-template-columns: repeat(3, 1fr);
+            }
+            
+
+            
+        }
+    }
+}
+
+@media screen and (min-width: 1400px){
+    .destination{
+        .secContainer{
+            
+
+        
+            // .searchField{
+            //     grid-template-columns: repeat(4, 1fr);
+            // }
+    
+            .destinationContainer{
+                grid-template-columns: repeat(4, 1fr);
+            }
+            
+
             
         }
     }
