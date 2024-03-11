@@ -172,6 +172,14 @@
                 .images{
                     align-items: center;
                     justify-content: center;
+                    gap: 2rem;
+
+                    img{
+                        height: 100px;
+                        width: 210px;
+                        object-fit: cover;
+                        border-radius: 10px;
+                    }
                 }
             }
 
