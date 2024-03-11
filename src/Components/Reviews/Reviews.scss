@@ -47,7 +47,7 @@ root{
             .redText{
                 font-size: var(--smallFontSize);
                 display: block;
-                color: var(--primaryColor);
+                color: #fff;
                 font-weight: 700;
             }
 
@@ -59,6 +59,7 @@ root{
 
             p{
                 color: #fff;
+                font-size: small;
             }
 
             .stars{
