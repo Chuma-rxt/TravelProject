@@ -74,3 +74,16 @@ root{
 }
 
 
+@media screen and (min-width: 480px){
+    .middle{
+        .secContainer{
+            .grid{
+                grid-template-columns: repeat(2,1fr);
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 480px){
+
+
