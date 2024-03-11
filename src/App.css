@@ -138,3 +138,16 @@ img, video {
   background: var(--primaryColor);
   border-radius: var(--borderRadiud);
 }
+
+
+@media screen  and (min-width: 840px) {
+  .section{
+    padding: 4rem 0 3rem;
+  }
+
+  .container{
+    width: 75%;
+    margin: auto;
+  }
+  
+}
