@@ -78,3 +78,35 @@ root{
     }
 }
 
+@media screen and (min-width: 480px){
+    .portfolio{
+        .secContainer{
+            .leftContent{
+                .secHeading{
+                    h3{
+                        font-size: var(--h2FontSize);
+                    }
+
+                    p{
+                        font-size: var(--normalFontSize);
+                        padding: .5rem 0;
+                    }
+                }
+                }
+
+                .grid{
+                    .singlePortfolio{
+                        gap: 1.5rem;
+
+                        .iconDiv{
+                            img{
+                                height: 60px;
+                                width: 60px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+

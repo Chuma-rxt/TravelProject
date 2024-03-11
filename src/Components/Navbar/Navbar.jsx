@@ -22,7 +22,11 @@ const Navbar = () => {
     setNavBar(" menu ");
   }
 
-
+    // Function to open a new tab
+    const openNewTab = () => {
+      const url = 'https://www.example.com'; // Change this URL to your desired URL
+      window.open(url, '_blank');
+    };
 
 
 
@@ -53,7 +57,9 @@ const Navbar = () => {
         <AiFillCloseCircle className='icons closeIcon' onClick={removeNavBar} />
       </div>
 
-      <button className='signUpBtn btn'>Sign Up</button>
+       <button className="signUpBtn btn" onClick={openNewTab}>
+        Sign Up
+      </button>
 
       <PiDotsNineBold className='icon menuIcon' onClick={showNavBar} />
        
