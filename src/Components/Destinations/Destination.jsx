@@ -21,6 +21,7 @@ import image8 from '../../Assets/Rural1.jpg'
 import image9 from '../../Assets/Bulungula.jpg'
 import image10 from '../../Assets/hogsback.jpg'
 import image0 from '../../Assets/3.-Msikaba-Bridge-CGI.jpg'
+import image11 from '../../Assets/rurals.jpg'
 
 // Creating an array that is gonna hold all the data for the destinations
 const destinations= [
@@ -101,6 +102,13 @@ const destinations= [
     location: 'Eastern Cape',
     rating: 4.7
   },
+  {
+    id: 11,
+    img: image11,
+    name: 'Centane',
+    location: 'Eastern Cape',
+    rating: 4.8
+  },
   
 ];
 
@@ -108,7 +116,7 @@ const Destination = () => {
   return (
     <div className='destination section container'>
       <div className='secContainer'>
-        <div className=''>
+        <div className='secTitle'>
           <span className='redText'>EXPLORE NOW</span>
           <h3>Find Your Dream Destination</h3>
           <p>
