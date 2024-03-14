@@ -4,7 +4,7 @@ import './Portfolio.scss';
 
 import icon1 from '../../Assets/icon1.jpg'
 import icon2 from '../../Assets/destination1.jpg'
-import icon3 from '../../Assets/24-hours-support.png'
+import icon3 from '../../Assets/7d0e6ce6ff877a4d4cbc7f2349a0a428.jpg'
 import image from '../../Assets/Untitled design.png';
 
 const Portfolio = () => {

@@ -31,7 +31,7 @@ root{
 
 .portfolio {
     /* Add background image URL and other styles */
-    background-image: url('../../Assets/pexels-omar-markhieh-1438863.jpg');
+    background-image: url('../../Assets/pexels-tamilanban-subramanian-9719999.jpg');
     background-position: center;
     background-repeat: no-repeat;
     // padding: 50px 0; /* Adjust padding as needed */
@@ -117,6 +117,41 @@ root{
                         }
 
                     }
+                }
+            }
+        }
+    }
+
+    @media screen and (min-width: 660px){
+        .portfolio{
+            .secContainer{
+                .leftContent{
+                    .secHeading{
+
+                        h3{
+                            font-size: 2rem;
+                        }
+                        p{
+                            font-size: var(--h3FontSize);
+                        }
+                    }
+                    grid{
+                        grid-template-columns: repeat(2, 1fr);
+                        .singlePortfolio{
+                            gap: 1.5rem;
+                        }
+                    }
+                    
+                }
+            }
+
+            .rightContent{
+                margin: auto;
+                display: flex;
+                align-items: center;
+                img{
+                    margin: auto;
+                    max-width: 80%;
                 }
             }
         }
