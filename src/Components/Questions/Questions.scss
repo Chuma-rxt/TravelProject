@@ -145,5 +145,37 @@ root{
             height: 150px;
         }
     }
+
+    .questions{
+        .secHeading{
+            h3,
+            h4{
+                font-size: var(--h2FontSize);
+            }
+
+            p{
+                font-size: var(--normalFontSize);
+            }
+        }
+
+        .secContainer{
+            grid-template-columns: repeat(2, 1fr);
+            align-items: flex-start;
+            gap: 2rem;
+            .form{
+                .formContent{
+                    input, textarea{
+                        font: var(--normalFontSize);
+                        &::placeholder{
+                            font-size: var(--normalFontSize);
+                            // color: var(--blackColor);
+                        }
+                    }
+                }
+            }
+
+
+        }
+    }
     
 }
