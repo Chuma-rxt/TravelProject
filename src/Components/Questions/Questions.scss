@@ -196,6 +196,29 @@ root{
                 }
             }
         }
+
+        .description{
+            font-size: var(--normalFontSize);
+        }
+        .show{
+            height: 150px;
+        }
+    }
+
+    .questions{
+        .secHeading{
+            h3, h4{
+                font-size: 1.5rem;
+            }
+
+            p{
+                font-size: var(--h3FontSize);
+            }
+        }
+
+        .secContainer{
+            gap: 3rem;
+        }
     }
 
 }
