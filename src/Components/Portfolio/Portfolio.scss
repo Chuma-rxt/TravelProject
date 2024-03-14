@@ -104,6 +104,18 @@ root{
                                 width: 60px;
                             }
                         }
+
+                        .infor{
+                            h4{
+                                padding-bottom: .5rem;
+                                font-size: var(--h3FontSize);
+                            }
+
+                            p{
+                               font-size: var(--normalFontSize); 
+                            }
+                        }
+
                     }
                 }
             }
