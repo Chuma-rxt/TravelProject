@@ -21,6 +21,7 @@ const Home = () => {
   useEffect(()=>{
     Aos.init({duration: 2000})
   },[])
+  
   return (
     <div className='Home'>
       <div className='videoBg'>
