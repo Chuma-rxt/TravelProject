@@ -121,6 +121,8 @@ const Destination = () => {
     Aos.init({duration: 2000})
   },[])
 
+  
+
   return (
     <div className='destination section container'>
       <div className='secContainer'>
