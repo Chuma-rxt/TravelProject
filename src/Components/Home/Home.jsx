@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import './Home.css'
 import './Home.scss'
 
@@ -12,7 +12,15 @@ import imag2 from '../../Assets/Gqeberha.jpg'
 import imag3 from '../../Assets/tsitsikamma_national_park.jpg'
 import imag4 from '../../Assets/camdeboo_national_park.jpg'
 
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+
+
 const Home = () => {
+
+  useEffect(()=>{
+    Aos.init({duration: 2000})
+  },[])
   return (
     <div className='Home'>
       <div className='videoBg'>
@@ -20,7 +28,7 @@ const Home = () => {
       </div>
 
       <div className="sectionText">
-        <h1>Embark on Unforgettable Adventures!</h1>
+        <h1 data-aos= 'fade-up'>Embark on Unforgettable Adventures!</h1>
         <p>
         Let us guide you on a journey of discovery and wonder. 
         Your next unforgettable adventure starts here.
