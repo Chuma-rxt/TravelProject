@@ -29,18 +29,18 @@ const Home = () => {
 
       <div className="sectionText">
         <h1 data-aos= 'fade-up'>Embark on Unforgettable Adventures!</h1>
-        <p>
+        <p data-aos= 'fade-up'>
         Let us guide you on a journey of discovery and wonder. 
         Your next unforgettable adventure starts here.
         </p>
-        <button className='btn flex'>GET STARTED <AiOutlineSwapRight className="icon" />
+        <button className='btn flex' data-aos= 'fade-up'>GET STARTED <AiOutlineSwapRight className="icon" />
         </button>
       </div>
 
       <div className='popularPlaces'>
         <div className='content'>
-          <h3>Popular Places</h3>
-          <div className='images flex'>
+          <h3 data-aos= 'fade-up'>Popular Places</h3>
+          <div className='images flex' data-aos= 'fade-up'>
             <img src={imag1} alt='Destination Image' />
             <img src={imag2} alt='Destination Image' />
             <img src={imag3} alt='Destination Image' />
