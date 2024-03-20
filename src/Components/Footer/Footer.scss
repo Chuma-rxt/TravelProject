@@ -118,8 +118,15 @@ root{
     }
 }
 
-@media screen and (min-width: 448px){
+@media screen and (min-width: 640px){
     .secContainer{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media screen and (min-width: 640px){
+    .secContainer{
+        padding: 2rem 0;
         grid-template-columns: repeat(4, 1fr);
     }
 }
